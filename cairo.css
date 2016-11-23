@@ -1,0 +1,195 @@
+.mainframe{
+background-image: url(http://www.cheapholidays.com/style/ch/img/destinations/cairo1.jpg);
+background-size: cover;
+height: 800px;
+
+}
+
+.subframe{
+border-radius: 15px;
+border: 2px solid white;
+max-height: 46px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0.7;
+    font-weight: bold;
+
+
+}
+[id=title]{
+    color:white;
+    float: left;
+    padding: -15px -1px;
+    -webkit-text-stroke: 1px beige;
+    font-size: 18px;
+}
+
+[id=cairo]{
+    color:white;
+    float: left;
+    padding: 14px 9px 0 380px;
+    -webkit-text-stroke: 0.5px white;
+    font-size: 18px;
+}
+
+li {
+    float: right;
+}
+
+li a, .dropbtnone {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+li a:hover, .dropdownnone:hover .dropbtnone {     
+    background-color: #ffffff;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;  
+    margin-top: -1px; 
+}
+    
+
+li.dropdownone {
+    display: inline-block;
+}
+.dropdownone-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 75px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 0 0 5px 5px;
+}
+.dropdownone-content a {
+    color: black;
+    font-weight: bold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdownone-content a:hover {
+    background-color: grey;}
+
+.dropdownone:hover .dropdownone-content {
+    display: block;
+}
+
+
+.cairoone {
+    position: relative;
+    display: inline-block;
+    margin: 25px 25px 50px 15px;
+        
+}
+
+.cairoone-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ 
+}
+
+.cairoone:hover .cairoone-content {
+    display: block;
+    min-width: 100px;
+    border-radius: 25px;    
+}
+
+.captionone {
+    padding: 15px;
+    text-align: center;
+}
+
+.cairotwo {
+    position: relative;
+    display: inline-block;
+margin: 25px 25px 50px 15px;
+border-radius: 25px;
+}
+
+.cairotwo-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.cairotwo:hover .cairotwo-content {
+    display: block;
+    border-radius: 25px;
+
+}
+
+.captiontwo {
+    padding: 15px;
+    text-align: center;
+}
+
+.cairothree {
+    position: relative;
+    display: inline-block;
+    margin: 25px 25px 50px 15px;
+    
+}
+
+.cairothree-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 25px;
+
+}
+
+.cairothree:hover .cairothree-content {
+    display: block;
+    border-radius: 25px;
+
+}
+
+.captionthree {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.cairofour {
+    position: relative;
+    display: inline-block;
+    margin: 25px 25px 50px 15px;
+    border-radius: 25px;
+}
+
+.cairofour-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.cairofour:hover .cairofour-content {
+    display: block;
+    border-radius: 25px; 
+}
+
+.captionfour {
+    padding: 15px;
+    text-align: center;
+}

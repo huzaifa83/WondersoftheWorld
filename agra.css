@@ -1,0 +1,190 @@
+.mainframe{
+background-image: url(https://holidayz.makemytrip.com/hp-images/new/cities/1297/Agra_704x385.jpg);
+background-size: cover;
+height: 800px;
+}
+
+.subframe{
+border-radius: 15px;
+border: 2px solid #663300;
+max-height: 46px;
+font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0.7;
+    font-weight: bold;
+
+
+}
+[id=title]{
+    color: red;
+    float: left;
+    padding: -15px -1px;
+    -webkit-text-stroke: 1px black;
+    font-size: 1px;
+}
+
+[id=agra]{
+    color:#663300;
+    float: left;
+    padding: 14px 9px 0 380px;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li {
+    float: right;
+}
+
+li a, .dropbtnone {
+    display: inline-block;
+    color: #663300;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+li a:hover, .dropdownnone:hover .dropbtnone {     
+    background-color: lightgrey;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;  
+    margin-top: -1px; 
+}
+    
+
+li.dropdownone {
+    display: inline-block;
+}
+.dropdownone-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 75px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 0 0 5px 5px;
+}
+.dropdownone-content a {
+    color: black;
+    font-weight: bold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdownone-content a:hover {
+    background-color: grey;}
+
+.dropdownone:hover .dropdownone-content {
+    display: block;
+}
+
+
+.agraone {
+    position: relative;
+    display: inline-block;
+    margin: 25px 25px 50px 220px;
+    border-radius: 25px;
+    
+}
+
+.agraone-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ 
+}
+
+.agraone:hover .agraone-content {
+    display: block;
+    border-radius: 20px;
+    
+}
+
+.captionone {
+    padding: 15px;
+    text-align: center;
+}
+
+.agratwo {
+    position: relative;
+    display: inline-block;
+margin: 25px 25px 50px 15px;
+}
+
+.agratwo-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.agratwo:hover .agratwo-content {
+    display: block;
+    border-radius: 20px;
+}
+
+.captiontwo {
+    padding: 15px;
+    text-align: center;
+}
+
+.agrathree {
+    position: relative;
+    display: inline-block;
+    margin: 25px 25px 50px 15px;
+}
+
+.agrathree-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.agrathree:hover .agrathree-content {
+    display: block;
+    border-radius: 20px;
+}
+
+.captionthree {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.agrafour {
+    position: relative;
+    display: inline-block;
+    margin: 25px 25px 50px 15px;
+}
+
+.agrafour-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.agrafour:hover .agrafour-content {
+    display: block;
+    border-radius: 20px;
+}
+
+.captionfour {
+    padding: 15px;
+    text-align: center;
+}
